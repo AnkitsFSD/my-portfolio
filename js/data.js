@@ -67,9 +67,9 @@ const PORTFOLIO_DATA = {
       },
     ],
     technologies: [
-      "React.js", "Node.js", "Express.js", "MongoDB", "MySQL", "JavaScript",
-      "n8n", "AI Agents", "Webhooks", "HTML5", "CSS3", "Tailwind CSS",
-      "Git", "GitHub", "REST APIs", "QA Testing"
+      "React.js", "FastAPI", "Node.js", "Express.js", "MongoDB", "MySQL", "JavaScript",
+      "Python", "Google Gemini API", "n8n", "AI Agents", "Webhooks", "HTML5", "CSS3", 
+      "Tailwind CSS", "Git", "GitHub", "REST APIs", "QA Testing", "CI/CD"
     ],
   },
 
@@ -106,6 +106,17 @@ const PORTFOLIO_DATA = {
       live: "#",
       featured: false,
       category: "Frontend",
+    },
+    {
+      id: 4,
+      title: "CodeLens AI - Intelligent Code Reviewer",
+      description: "A full-stack AI static analysis engine built with a Backend-For-Frontend (BFF) architecture. Integrates Google Gemini API via FastAPI to securely evaluate code, featuring a Monaco Editor for interactive, Git-style diff viewing.",
+      tags: ["React.js", "FastAPI", "Gemini AI", "Vercel"],
+      image: "./asset/codelens-ai-preview.png", // Maine coding ka ek default image laga diya hai, tum isse apne app ke screenshot se replace kar lena
+      github: "https://github.com/AnkitsFSD/codelens-ai",
+      live: "https://codelens-ai-pink.vercel.app/",
+      featured: true,
+      category: "Full-Stack",
     }
   ],
 
